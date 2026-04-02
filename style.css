@@ -1,0 +1,49 @@
+@import url('https://googleapis.com');
+body{
+    display:flex;
+    flex-direction: column;
+    margin:0px;
+}
+.header{
+    display:flex;
+    justify-content:space-between;
+    background-color:#1F2937;
+    font-family:"Roboto",sans-serif;
+    padding:10px 10px 10px 30px;
+    margin:0px;
+    color:#F9FAF8;
+}
+#title{
+    font-weight:bold;
+    font-size:24px;
+}
+.links{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+    font-size:20px;
+    padding:0px 20px;
+}
+a{
+    color:#F9FAF8;
+    text-decoration-line: none;
+}
+a:hover{
+    text-decoration-line:underline;
+}
+.content1{
+    display:flex;
+}
+.content2{
+    display:flex;
+}
+.content3{
+    display:flex;
+}
+.content4{
+    display:flex;
+}
+.copyright{
+    display:flex;
+}
