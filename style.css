@@ -4,12 +4,12 @@ body{
     flex-direction: column;
     margin:0px;
 }
-.header{
+.header, .content1{
     display:flex;
     justify-content:space-between;
     background-color:#1F2937;
     font-family:"Roboto",sans-serif;
-    padding:10px 10px 10px 30px;
+    padding:10px;
     margin:0px;
     color:#F9FAF8;
 }
@@ -32,8 +32,23 @@ a{
 a:hover{
     text-decoration-line:underline;
 }
-.content1{
+#introduction{
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight:900;
+}
+.paragraph{
+    font-size:18px;
+    color:#E5E7EB;
+}
+.verticalflex{
     display:flex;
+    flex-direction:column;
+}
+.content1 img{
+    height:300px;
+    width:500px;
+    margin-right:70px;
 }
 .content2{
     display:flex;
