@@ -3,12 +3,12 @@ body{
     display:flex;
     flex-direction: column;
     margin:0px;
+    font-family:"Roboto",sans-serif;
 }
 .header, .content1{
     display:flex;
     justify-content:space-between;
     background-color:#1F2937;
-    font-family:"Roboto",sans-serif;
     padding:10px;
     margin:0px;
     color:#F9FAF8;
@@ -41,17 +41,51 @@ a:hover{
     font-size:18px;
     color:#E5E7EB;
 }
-.verticalflex{
+.introflex{
     display:flex;
     flex-direction:column;
+    max-width:500px;
 }
 .content1 img{
     height:300px;
     width:500px;
     margin-right:70px;
+    flex:0 1
 }
 .content2{
     display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.content2 #recipeintro{
+    color:#1F2937;
+    font-size:36px;
+    font-weight:900;
+}
+.recipesindex{
+    display:flex;
+    margin:20px;
+}
+.recipesprofile{
+    display:flex;
+    flex-direction:column;
+    margin:20px;
+    align-items: center;
+}
+.recipesprofile a{
+    font-size:25px;
+    color:#1F2937;
+    font-weight: 300;
+}
+.recipesprofile img{
+    width:200px;
+    height:200px;
+    border-style:solid;
+    border-color:blue;
+    border-width: 5px;
+    border-radius:20px;
+    padding:0px;
+    margin-bottom:20px;
 }
 .content3{
     display:flex;
