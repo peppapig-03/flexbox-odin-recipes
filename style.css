@@ -1,3 +1,4 @@
+/* index page start */
 body{
     display:flex;
     flex-direction: column;
@@ -8,8 +9,7 @@ body{
     display:flex;
     justify-content:space-between;
     background-color:#1F2937;
-    padding:10px;
-    margin:0px;
+    padding:40px;
     color:#F9FAF8;
 }
 .content1{
@@ -70,6 +70,8 @@ a:hover{
 .recipesindex{
     display:flex;
     margin:20px;
+    flex-wrap:wrap;
+    justify-content:center;
 }
 .recipesprofile{
     display:flex;
@@ -113,3 +115,5 @@ a:hover{
 .sources{
     justify-content: center;
 }
+/* index page end */
+/* recipe subpages start*/
