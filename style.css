@@ -4,13 +4,16 @@ body{
     margin:0px;
     font-family:"Roboto",sans-serif;
 }
-.header, .content1{
+.header, .content1, .sources{
     display:flex;
     justify-content:space-between;
     background-color:#1F2937;
     padding:10px;
     margin:0px;
     color:#F9FAF8;
+}
+.content1{
+    padding-bottom:20px;
 }
 #title{
     font-weight:bold;
@@ -35,6 +38,7 @@ a:hover{
     font-size: 48px;
     color:#F9FAF8;
     font-weight:900;
+    margin-bottom:20px;
 }
 .paragraph{
     font-size:18px;
@@ -46,12 +50,14 @@ a:hover{
     max-width:500px;
 }
 .content1 img{
-    height:300px;
-    width:500px;
+    height:200px;
+    width:330px;
     margin-right:70px;
-    flex:0 1
+    flex:0 1;
+    border-radius:20px;
 }
 .content2{
+    padding:20px 10px;
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -88,10 +94,22 @@ a:hover{
 }
 .content3{
     display:flex;
+    background-color:#E5E7EB;
+    flex-direction:column;
+    color:#1F2937;
+    padding:40px;
 }
-.content4{
-    display:flex;
+.reflection{
+    font-size:30px;
+    font-weight:0;
+    font-style: italic;
+    align-self:center;
 }
-.copyright{
-    display:flex;
+.creator{
+    font-size:25px;
+    font-weight:900;
+    align-self: flex-end;
+}
+.sources{
+    justify-content: center;
 }
